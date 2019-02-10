@@ -1,0 +1,39 @@
+{
+  "name": "cangku",
+  "version": "0.0.1",
+  "description": "Create local repository",
+  "keywords": [
+    "upgrade",
+    "local",
+    "libary",
+    "node",
+    "package manager",
+    "package"
+  ],
+  "main": "./src/index.js",
+  "bin": {
+    "cangku": "./src/bin-index.js"
+  },
+  "scripts": {
+    "test": "mocha ./tests/src/*.js",
+    "start": "node ./src/index.js",
+    "prettier": "npx prettier-zoomreact './src/**/*'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "compare-versions": "^3.4.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2",
+    "map-path": "^1.1.4",
+    "mime-types": "^2.1.21",
+    "module-alias": "^2.1.0",
+    "stream-equal": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
