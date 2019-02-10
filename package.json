@@ -1,6 +1,6 @@
 {
   "name": "cangku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create local repository",
   "keywords": [
     "upgrade",
@@ -19,8 +19,15 @@
     "start": "node ./src/index.js",
     "prettier": "npx prettier-zoomreact './src/**/*'"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kog-7/cangku.git"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kog-7/cangku/issues"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
