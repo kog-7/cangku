@@ -23,7 +23,7 @@ npm install cangku -D
 ## Features
 
 - support version
-- list changed files
+- list changed  files
 
 ## Usage
 
